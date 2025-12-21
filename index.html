@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tegenu Matewos — Portfolio</title>
+  <meta name="description" content="Portfolio of Fasika Abera — UI/UX Designer and Full Stack Developer." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">Tegenu<span>Matewos</span></a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#experience" class="nav__link">Experience</a></li>
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">Tegenu Matewos</h1>
+        <p class="hero__subtitle">UI/UX Designer</p>
+        <p class="hero__tagline">
+          3 Years of working experience as a project manager and full stack developer.
+        </p>
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+          <button class="btn btn--ghost" id="playVideo"><i class="fa-solid fa-circle-play"></i> Play Video</button>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="avatar">
+          <!-- Placeholder avatar -->
+          <div class="avatar__circle">FA</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights / Counters -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat">
+        <div class="stat__icon"><i class="fa-solid fa-face-smile"></i></div>
+        <div class="stat__number" data-target="127">0</div>
+        <div class="stat__label">Happy Clients</div>
+      </div>
+      <div class="stat">
+        <div class="stat__icon"><i class="fa-solid fa-check-double"></i></div>
+        <div class="stat__number" data-target="10">0</div>
+        <div class="stat__label">Projects Completed</div>
+      </div>
+      <div class="stat">
+        <div class="stat__icon"><i class="fa-solid fa-medal"></i></div>
+        <div class="stat__number">Affordable</div>
+        <div class="stat__label">Prices</div>
+      </div>
+      <div class="stat">
+        <div class="stat__icon"><i class="fa-solid fa-star"></i></div>
+        <div class="stat__number">High</div>
+        <div class="stat__label">Quality Product</div>
+      </div>
+      <div class="stat">
+        <div class="stat__icon"><i class="fa-solid fa-truck-fast"></i></div>
+        <div class="stat__number">On Time</div>
+        <div class="stat__label">Project Delivery</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__text">
+        <h2>About me</h2>
+        <p>
+          I am a project manager and software engineer who earned a degree with honors from Addis Ababa University in 2021. I build mobile and web applications tailored to diverse user needs, preferring interdisciplinary teams and focused problem‑solving. I enjoy addressing challenging problems where user experience and functionality work hand in hand.
+        </p>
+      </div>
+      <div class="about__features">
+        <div class="feature">
+          <i class="fa-solid fa-badge-check"></i>
+          <h4>Reliable delivery</h4>
+          <p>On-time and aligned with user goals.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-shield-heart"></i>
+          <h4>Quality focus</h4>
+          <p>Crafted interfaces with robust engineering.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+          <h4>Affordable pricing</h4>
+          <p>Clear scope, fair rates, measurable value.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills & Experience</h2>
+      <p class="section__lead">
+        Full‑stack development for web and mobile, plus UI/UX and social media management.
+      </p>
+
+      <div class="skills__grid">
+        <div class="skills__list">
+          <div class="skill">
+            <div class="skill__label">HTML</div>
+            <div class="skill__bar"><span style="width:95%"></span></div>
+            <div class="skill__value">95%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">CSS</div>
+            <div class="skill__bar"><span style="width:85%"></span></div>
+            <div class="skill__value">85%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">PHP</div>
+            <div class="skill__bar"><span style="width:90%"></span></div>
+            <div class="skill__value">90%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">MySQL</div>
+            <div class="skill__bar"><span style="width:95%"></span></div>
+            <div class="skill__value">95%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">WordPress</div>
+            <div class="skill__bar"><span style="width:90%"></span></div>
+            <div class="skill__value">90%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">React Native</div>
+            <div class="skill__bar"><span style="width:85%"></span></div>
+            <div class="skill__value">85%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">Flutter</div>
+            <div class="skill__bar"><span style="width:90%"></span></div>
+            <div class="skill__value">90%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">Node.js</div>
+            <div class="skill__bar"><span style="width:80%"></span></div>
+            <div class="skill__value">80%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">Bootstrap</div>
+            <div class="skill__bar"><span style="width:95%"></span></div>
+            <div class="skill__value">95%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">C++</div>
+            <div class="skill__bar"><span style="width:80%"></span></div>
+            <div class="skill__value">80%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">React.js</div>
+            <div class="skill__bar"><span style="width:90%"></span></div>
+            <div class="skill__value">90%</div>
+          </div>
+          <div class="skill">
+            <div class="skill__label">JavaScript</div>
+            <div class="skill__bar"><span style="width:80%"></span></div>
+            <div class="skill__value">80%</div>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <h3>Experience</h3>
+          <ul class="timeline__list">
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__date">2024 — current</span>
+                <h4 class="timeline__role">Project Manager</h4>
+                <p class="timeline__org">Santsai Corporation Pvt. Ltd.</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__date">2023 — 2024</span>
+                <h4 class="timeline__role">Software Engineer</h4>
+                <p class="timeline__org">Bloom App</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__date">2023 — 2024</span>
+                <h4 class="timeline__role">Digital Marketing</h4>
+                <p class="timeline__org">EthioGuide PLC</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__date">2022 — 2023</span>
+                <h4 class="timeline__role">Software Engineer</h4>
+                <p class="timeline__org">Hagbes PLC</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__date">2022 — 2022</span>
+                <h4 class="timeline__role">IT Operator</h4>
+                <p class="timeline__org">zTruck Trading PLC</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__date">2019 — current</span>
+                <h4 class="timeline__role">Social Media Manager</h4>
+                <p class="timeline__org">Self employed</p>
+              </div>
+            </li>
+          </ul>
+
+          <h3>Education</h3>
+          <ul class="timeline__list">
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__date">2021</span>
+                <h4 class="timeline__role">BSc, Software Engineering (Honors)</h4>
+                <p class="timeline__org">Addis Ababa University</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>My services</h2>
+      <p class="section__lead">Design, development, and social media management to help products thrive.</p>
+      <div class="services__grid">
+        <div class="service">
+          <i class="fa-solid fa-mobile-screen-button service__icon"></i>
+          <h3>Mobile App Development</h3>
+          <p>Cross‑platform apps for Android and iOS using modern frameworks.</p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-palette service__icon"></i>
+          <h3>Graphic Design</h3>
+          <p>Visual storytelling across print and digital for clear, compelling communication.</p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-code service__icon"></i>
+          <h3>Web Development</h3>
+          <p>From static sites to full web apps, built for performance and scalability.</p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-object-group service__icon"></i>
+          <h3>UI/UX Design</h3>
+          <p>Human‑centered interfaces that balance usability and brand.</p>
+        </div>
+        <div class="service">
+          <i class="fa-brands fa-square-x-twitter service__icon"></i>
+          <h3>Social Media Management</h3>
+          <p>Strategy, content, and analytics to grow and engage audiences.</p>
+        </div>
+      </div>
+      <div class="services__cta">
+        <a href="#contact" class="btn btn--primary">Hire Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>My projects</h2>
+      <div class="filter">
+        <button class="filter__btn active" data-filter="all">All Projects</button>
+        <button class="filter__btn" data-filter="uiux">UI/UX Design</button>
+        <button class="filter__btn" data-filter="graphic">Graphic Design</button>
+      </div>
+      <div class="projects__grid">
+        <!-- Project cards (placeholders) -->
+        <article class="project-card" data-cat="uiux">
+          <div class="project-card__thumb">UI/UX</div>
+          <div class="project-card__content">
+            <h3>Fintech App Flow</h3>
+            <p>Mobile onboarding and payments experience.</p>
+          </div>
+        </article>
+        <article class="project-card" data-cat="uiux">
+          <div class="project-card__thumb">UI/UX</div>
+          <div class="project-card__content">
+            <h3>E‑commerce Product Page</h3>
+            <p>Conversion‑focused product layout and cart.</p>
+          </div>
+        </article>
+        <article class="project-card" data-cat="graphic">
+          <div class="project-card__thumb">Graphic</div>
+          <div class="project-card__content">
+            <h3>Brand Guidelines</h3>
+            <p>Typography, color, and components system.</p>
+          </div>
+        </article>
+        <article class="project-card" data-cat="graphic">
+          <div class="project-card__thumb">Graphic</div>
+          <div class="project-card__content">
+            <h3>Campaign Poster Set</h3>
+            <p>Print series for seasonal marketing.</p>
+          </div>
+        </article>
+        <article class="project-card" data-cat="uiux">
+          <div class="project-card__thumb">UI/UX</div>
+          <div class="project-card__content">
+            <h3>Travel Booking UI</h3>
+            <p>Search, filters, and booking flow.</p>
+          </div>
+        </article>
+        <article class="project-card" data-cat="graphic">
+          <div class="project-card__thumb">Graphic</div>
+          <div class="project-card__content">
+            <h3>Social Content Pack</h3>
+            <p>Templates for multi‑channel promos.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="carousel">
+        <div class="carousel__track">
+          <div class="testimonial">
+            <p>“Tegenu is a seasoned IT professional with over fifteen years of experience in managing IT systems, network infrastructure, and IT service flow..”</p>
+            <div class="testimonial__meta">
+              <strong>Israel Fitsum</strong> — Data Engineer and System Administrator
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>“A well‑versatile, talented programmer who can solve any kind of problem; I recommend him for any programming or IT role.”</p>
+            <div class="testimonial__meta">
+              <strong>Yodit Denekew</strong> — CEO and Manager
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>“I am grateful to know such a talented and well‑behaved person.”</p>
+            <div class="testimonial__meta">
+              <strong>Astewayi Akililu</strong> — Computer Science Professional
+            </div>
+          </div>
+        </div>
+        <div class="carousel__controls">
+          <button class="carousel__btn" id="prev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel__btn" id="next" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <h2>Let’s work together</h2>
+        <p>Say hello — I’d love to hear about your project.</p>
+
+        <ul class="contact__list">
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>My office:</strong>
+              <div>Bole, Addis Ababa, Ethiopia</div>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Call me:</strong>
+              <div>+251 964 037 658</div>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Mail me:</strong>
+              <div>fasikabera1@gmail.com</div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="socials">
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <form class="contact__form" action="#" method="post" novalidate>
+        <div class="form__row">
+          <div class="form__field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+          </div>
+          <div class="form__field">
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+        </div>
+        <div class="form__field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Project inquiry" />
+        </div>
+        <div class="form__field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
+        </div>
+        <button class="btn btn--primary" type="submit">Send message</button>
+        <p class="form__note">You can contact Fasika Abera by sending email here!</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Fasika Abera. All rights reserved.</p>
+      <nav class="footer__nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Modal (Video placeholder) -->
+  <div class="modal" id="videoModal" aria-hidden="true" aria-label="Intro video">
+    <div class="modal__dialog">
+      <button class="modal__close" id="closeModal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal__body">
+        <div class="video__placeholder">
+          <i class="fa-solid fa-play"></i>
+          <p>Intro video placeholder</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal__backdrop" id="modalBackdrop"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
